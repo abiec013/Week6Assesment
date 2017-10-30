@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+<form action="/Home/AddNumbers" method="post">
+    Num 1: <input type="number" name="Num1" /><br />
+    Num 2: <input type="number" name="Num2" /><br />
+    <input type="submit" value="Add" />
+    </form>
